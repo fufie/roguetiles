@@ -11,10 +11,10 @@ The first use-case is to retrieve one or more tiles from one or more files and p
 ![Original Tilesheet](examples/terrain.png)
 
 ### Sample conversion order
-[Sample json-file with instructions](examples/sample-json.png)
+![Sample json-file with instructions](examples/sample-json.png)
 
 ### Resulting Tilesheet
-[Resulting tilesheet](examples/tree.png)
+![Resulting tilesheet](examples/tree.png)
 
 ## Second use-case
 The second use-case is to extract single tiles into a single file, for later use/version control/etc.
