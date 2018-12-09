@@ -13,7 +13,7 @@ def main():
     import argparse
     parser = argparse.ArgumentParser(description='Join Tilemaps')
     parser.add_argument('-i', '--input', dest='input', action='store',
-                        default=None, help='input tile script.')
+                        default=None, help='input tile file.')
     parser.add_argument('-o', '--output', dest='output', action='store',
                         default=None, help='output tile file.')
     parser.add_argument('-t', '--tilenumber', dest='tilenumber', type=int,
