@@ -17,4 +17,7 @@ The first use-case is to retrieve one or more tiles from one or more files and p
 ![Resulting tilesheet](examples/trees.png)
 
 ## Second use-case
-The second use-case is to extract single tiles into a single file, for later use/version control/etc.  
+The second use-case is to extract single tiles into a single file, for later use/version control/etc.
+```bash
+extract-tile.py -t 498 -y 16 -i examples/terrain.png -o foo.png
+```
