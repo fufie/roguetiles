@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import sys
 from ProcessTile.process import *
 
 def extract_tile(infile, tilenumber, outfile, xoffset = 0, yoffset = 0, verbose = False):
