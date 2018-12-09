@@ -1,0 +1,121 @@
+[
+  {
+    "output": "trees.png",
+    "tile_width": 32,
+    "tile_height": 32,
+    "width": 256,
+    "height": 96,
+    "tiles": [
+      {
+        "filename": "terrain.png",
+        "source-tile": 498,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 499,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 500,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 501,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 502,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 522,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 523,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 526,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 546,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 547,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 548,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 570,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 571,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 572,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 573,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 574,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 575,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 594,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 595,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 596,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 597,
+        "source-y-offset": 16
+      },
+      {
+        "filename": "terrain.png",
+        "source-tile": 598,
+        "source-y-offset": 16
+      }
+    ]
+  }
+]
