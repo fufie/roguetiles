@@ -19,6 +19,11 @@ def main():
                         default=False, help='chatty or not.')
     
     args = parser.parse_args()
+
+    if args.input is None:
+        print "Error. No input provided"
+        sys.exit(-1)
+
     parse_tilefilespecs(args.input, output=args.output, verbose=args.verbose)
 
 if __name__ == "__main__":

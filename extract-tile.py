@@ -26,6 +26,10 @@ def main():
     
     args = parser.parse_args()
 
+    if args.input is None:
+        print "Error. No input provided"
+        sys.exit(-1)
+
     extract_tile(args.input, args.tilenumber, args.output, xoffset=args.xoffset, yoffset=args.yoffset, verbose = args.verbose)
 
 if __name__ == "__main__":
