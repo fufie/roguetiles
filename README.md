@@ -12,6 +12,7 @@ The first use-case is to retrieve one or more tiles from one or more files and p
 
 ### Sample conversion order
 ![Sample json-file with instructions](examples/sample-json.png)
+(The image above may not be 100% up-to-date, please check json-file in `examples` for up-to-date syntax and features)
 
 ### Resulting tilesheet with just trees and shrubbery
 ![Resulting tilesheet](examples/trees.png)
@@ -21,3 +22,8 @@ The second use-case is to extract single tiles into a single file, for later use
 ```bash
 extract-tile.py -t 498 -y 16 -i examples/terrain.png -o foo.png
 ```
+
+# Installation
+
+The code depends on Pillow (formerly PIL) so making a simple 'virtualenv' and doing 'pip install pillow' should be sufficient.
+
