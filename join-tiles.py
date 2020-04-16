@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import sys
@@ -21,7 +21,7 @@ def main():
     args = parser.parse_args()
 
     if args.input is None:
-        print "Error. No input provided"
+        print("Error. No input provided")
         sys.exit(-1)
 
     parse_tilefilespecs(args.input, output=args.output, verbose=args.verbose)

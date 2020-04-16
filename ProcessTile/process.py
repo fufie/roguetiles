@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import sys
@@ -35,19 +35,19 @@ class TileFileSpecification:
         self.tiles = tiles
         
 def tilenumber_to_box(image_width, image_height, tile_number, xoffset = 0, yoffset = 0):
-    tile_width = image_width / 32
+    tile_width = int(image_width) // 32
     #tile_height = image_height / 32
-    tile_row = tile_number / tile_width
-    tile_column = tile_number % tile_width
-    return (tile_column * 32 + xoffset, tile_row * 32 + yoffset,
-            tile_column * 32 + 32 + xoffset, tile_row * 32 + 32 + yoffset)
+    tile_row = int(tile_number) // int(tile_width)
+    tile_column = int(tile_number) % int(tile_width)
+    return (int(tile_column * 32 + xoffset), int(tile_row * 32 + yoffset),
+            int(tile_column * 32 + 32 + xoffset), int(tile_row * 32 + 32 + yoffset))
 
 def possibly_make_transparent(image, box, transparent_colour):
     make_transparent(image.crop(box), transparent_colour)
 
 def make_transparent(image, transparent_colour):
-    for x in xrange(image.width):
-        for y in xrange(image.height):
+    for x in range(image.width):
+        for y in range(image.height):
             pixel = image.getpixel((x,y))
             if pixel[0] == transparent_colour[0] and pixel[1] == transparent_colour[1] and pixel[2] == transparent_colour[2]:
                 image.putpixel((x,y), (pixel[0],pixel[1],pixel[2],0))  
@@ -91,6 +91,6 @@ def process_tilespec(entry, outfile, verbose = False):
             output.paste(region, target)
             
     if verbose:
-        print "Writing to", outfile
+        print("Writing to ", outfile)
         
     output.save(outfile, "png")
